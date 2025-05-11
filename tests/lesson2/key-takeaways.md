@@ -29,11 +29,15 @@ git status
 ## GIT convention
 - tạo commit theo tiêu chuẩn sau: <type>: <short description>
 Trong đó:
-- type: loại commit
+- type: loại commit:
+
 ■ chore: sửa nhỏ lẻ, chính tả, xóa file không dùng tới,...
+
 ■ feat: thêm tính năng mới, test case mới
+
 ■ fix: sửa lỗi 1 test trước đó
-○ short_description: mô tả ngắn gọn (50 kí tự), tiếng Anh hoặc tiếng Việt không dấu.
+
+- short_description: mô tả ngắn gọn (50 kí tự), tiếng Anh hoặc tiếng Việt không dấu.
 ## Work flow cơ bản
 1. Không dùng global config
     - init -> config -> add -> commit -> push
@@ -83,7 +87,7 @@ Trong đó:
 5. **Condition**
 - Cú pháp: if (điều kiện) {//code}
 6. **Vòng lặp for**
-- Cú pháp: (for(<khởi tạo>; <điềukiện dừng>; <điều kiện tăng>) {// code };
+- Cú pháp: (for(<khởi tạo>; <điều kiện dừng>; <điều kiện tăng>) {// code };
 # Format Code
 - **Mac**: Option + Shift + F
 - **Window**: Alt + Shift + F
