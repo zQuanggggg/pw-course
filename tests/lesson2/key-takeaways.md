@@ -36,10 +36,7 @@ Trong đó:
 ■ feat: thêm tính năng mới, test case mới
 
 ■ fix: sửa lỗi 1 test trước đó
-
-■ short_description: mô tả ngắn gọn (50 kí tự), tiếng Anh hoặc tiếng Việt không dấu.
-
-- git log: kiểm tra các commit đã được tạo trước đó
+○ short_description: mô tả ngắn gọn (50 kí tự), tiếng Anh hoặc tiếng Việt không dấu.
 ## Work flow cơ bản
 1. Không dùng global config
     - init -> config -> add -> commit -> push
